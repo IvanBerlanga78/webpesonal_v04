@@ -1,0 +1,138 @@
+    [
+
+        { 
+            "ProjectId" :1,
+            "ProjectPreviewTitle":"Marsalada",
+            "ProjectPreviewLabelText1": "Diseño Web",
+            "ProjectPreviewLabelText2": "Wordpress", 
+            "ProjectPreviewImage": "/assets/imgs/project-images/marsalada-preview.jpg" 
+        },
+        { 
+            "ProjectId" :2,
+            "ProjectPreviewTitle":"Moonvi",
+            "ProjectPreviewLabelText1": "Diseño Web", 
+            "ProjectPreviewLabelText2": "Wordpress",
+            "ProjectPreviewImage": "/assets/imgs/project-images/moonvi-preview.jpg"  
+        },
+        { 
+            "ProjectId" :3,
+            "ProjectPreviewTitle":"Active B. Consult",
+            "ProjectPreviewLabelText1": "Wordpress", 
+            "ProjectPreviewLabelText2": "Ilustración",
+            "ProjectPreviewImage": "/assets/imgs/project-images/active-business-preview.jpg"  
+        },
+        { 
+            "ProjectId" :4,
+            "ProjectPreviewTitle":"Incubout",
+            "ProjectPreviewLabelText1": "Diseño Web", 
+            "ProjectPreviewLabelText2": "HTML + CSS  + JS",
+            "ProjectPreviewImage": "/assets/imgs/project-images/incubout-preview.jpg"  
+        },
+        { 
+            "ProjectId" :5,
+            "ProjectPreviewTitle":"Clear Water Chem",
+            "ProjectPreviewLabelText1": "Diseño Web", 
+            "ProjectPreviewLabelText2": "HTML + CSS  + JS",
+            "ProjectPreviewImage": "/assets/imgs/project-images/clear-water-preview.jpg"  
+        },
+        { 
+            "ProjectId" :6,
+            "ProjectPreviewTitle":"Wirelane",
+            "ProjectPreviewLabelText1": "Diseño Web", 
+            "ProjectPreviewLabelText2": "HTML + CSS  + JS",
+            "ProjectPreviewImage": "/assets/imgs/project-images/wirelane-preview.jpg"  
+        },
+        { 
+            "ProjectId" :7,
+            "ProjectPreviewTitle":"Comandia",
+            "ProjectPreviewLabelText1": "Diseño Web", 
+            "ProjectPreviewLabelText2": "Diseño Gráfico",
+            "ProjectPreviewImage": "/assets/imgs/project-images/comandia-preview.jpg"  
+        },
+        { 
+            "ProjectId" :8,
+            "ProjectPreviewTitle":"Olution",
+            "ProjectPreviewLabelText1": "Diseño Web", 
+            "ProjectPreviewLabelText2": "HTML + CSS  + JS",
+            "ProjectPreviewImage": "/assets/imgs/project-images/olution-preview.jpg"  
+        },
+        { 
+            "ProjectId" :9,
+            "ProjectPreviewTitle":"Shopator",
+            "ProjectPreviewLabelText1": "Diseño Web", 
+            "ProjectPreviewLabelText2": "HTML + CSS  + JS",
+            "ProjectPreviewImage": "/assets/imgs/project-images/shopator-preview.jpg"  
+        },
+        { 
+            "ProjectId" :10,
+            "ProjectPreviewTitle":"Mundo Deportivo",
+            "ProjectPreviewLabelText1": "Diseño Web", 
+            "ProjectPreviewLabelText2": "Woocommerce",
+            "ProjectPreviewImage": "/assets/imgs/project-images/mundo-deportivo-store-preview.jpg"  
+        },
+        { 
+            "ProjectId" :11,
+            "ProjectPreviewTitle":"EM Group",
+            "ProjectPreviewLabelText1": "HTML + CSS  + JS", 
+            "ProjectPreviewLabelText2": "Wordpress",
+            "ProjectPreviewImage": "/assets/imgs/project-images/em-group-preview.jpg"  
+        },
+        { 
+            "ProjectId" :12,
+            "ProjectPreviewTitle":"Nauticsoft",
+            "ProjectPreviewLabelText1": "Diseño Web", 
+            "ProjectPreviewLabelText2": "HTML + CSS  + JS",
+            "ProjectPreviewImage": "/assets/imgs/project-images/nauticsoft-preview.jpg"  
+        },
+        { 
+            "ProjectId" :13,
+            "ProjectPreviewTitle":"Molista",
+            "ProjectPreviewLabelText1": "Diseño Web", 
+            "ProjectPreviewLabelText2": "HTML + CSS  + JS",
+            "ProjectPreviewImage": "/assets/imgs/project-images/molista-preview.jpg"  
+        },
+        { 
+            "ProjectId" :14,
+            "ProjectPreviewTitle":"Matteo Pugliese",
+            "ProjectPreviewLabelText1": "Diseño Web",
+            "ProjectPreviewLabelText2": "Wordpress",
+            "ProjectPreviewImage":"/assets/imgs/project-images/matteo-pugliese-preview.jpg" 
+        },
+        { 
+            "ProjectId" :15,
+            "ProjectPreviewTitle":"Lafuente",
+            "ProjectPreviewLabelText1": "Wordpress", 
+            "ProjectPreviewLabelText2": "Woocommerce",
+            "ProjectPreviewImage": "/assets/imgs/project-images/lafuente-preview.jpg"  
+        },
+        { 
+            "ProjectId" :16,
+            "ProjectPreviewTitle":"FMMC",
+            "ProjectPreviewLabelText1": "Wordpress", 
+            "ProjectPreviewLabelText2": "Diseño Web",
+            "ProjectPreviewImage": "/assets/imgs/project-images/fmcc-preview.jpg"  
+        },
+        { 
+            "ProjectId" :17,
+            "ProjectPreviewTitle":"Elia",
+            "ProjectPreviewLabelText1": "Wordpress", 
+            "ProjectPreviewLabelText2": "Elementor",
+            "ProjectPreviewImage": "/assets/imgs/project-images/eli-a-preview.jpg"  
+        },
+        { 
+            "ProjectId" :18,
+            "ProjectPreviewTitle":"N. Sanchidrian",
+            "ProjectPreviewLabelText1": "Wordpress", 
+            "ProjectPreviewLabelText2": "Elementor",
+            "ProjectPreviewImage": "/assets/imgs/project-images/natalia-preview.jpg"  
+        },
+        { 
+            "ProjectId" :19,
+            "ProjectPreviewTitle":"Cornella Cuida",
+            "ProjectPreviewLabelText1": "Wordpress", 
+            "ProjectPreviewLabelText2": "Elementor",
+            "ProjectPreviewImage": "/assets/imgs/project-images/cornella-cuida-preview.jpg"  
+        }
+        
+    ]
+
