@@ -130,7 +130,7 @@ export default function Home() {
           <h2 className="middle-section__heading"><span className="highlight-big">Diseñador web</span> freelance <br className="hide-on-mobile"/>enfocado en <span className="highlight-big">tus objetivos</span></h2>
           </div>
         </section>
-        <section className="section">
+        <section className="section reviews">
           <div className="container">
             <Swiper
             spaceBetween = {30}
@@ -181,7 +181,7 @@ export default function Home() {
                 />
                 <PlansPanel
                   heading={"Avanzado"}
-                  price = {"500€"}
+                  price = {"800€"}
                   feature1 = {"5 pestañas"}
                   feature2 = {"Adaptado a móviles"}
                   feature3 = {"100% autogestionable"}

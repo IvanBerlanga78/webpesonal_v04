@@ -13,7 +13,7 @@ function DetailsButton ({ButtonLink, ButtonText}){
                         onMouseLeave={() => set({ y: 100, color: "#fff" })}
             href={ButtonLink}>
             <div className='details-button-wrap'>
-                <div className='details-buttonn-icon-wrap'>
+                <div className='details-button-icon-wrap'>
                     <animated.span style={{ transform: y.to(v => `translateY(${v}%`) }}>
                     <Image src="/assets/imgs/icon-plane_icon-plane.svg" alt="icon plane" width="30" height="30"/>
                     </animated.span>

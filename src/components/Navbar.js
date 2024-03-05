@@ -1,5 +1,5 @@
 "use client"
-import React, {useEffect, useRef} from "react";
+import React, {useEffect, useState, useRef} from "react";
 import Image from "next/image";
 import Link from 'next/link';
 import lottie from 'lottie-web';
@@ -8,6 +8,7 @@ import lottie from 'lottie-web';
 export default function Navbar (){
 
     useEffect(() => {
+        
         var prevScrollpos = window.pageYOffset;
 
 

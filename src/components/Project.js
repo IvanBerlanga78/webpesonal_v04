@@ -43,13 +43,13 @@ function Project ({ProjectFirstImage, ProjectSecondImage, ProjectThirdImage, Pro
                     modules={[EffectFade, Autoplay, Pagination]}
                     >
                     <SwiperSlide>
-                      <Image src={ProjectFirstImage} alt={ProjectHeading}  width="605" height="728"></Image>
+                      <Image src={ProjectFirstImage} alt={ProjectHeading}  width="615" height="700"></Image>
                     </SwiperSlide>
                     <SwiperSlide>
-                      <Image src={ProjectSecondImage} alt={ProjectHeading}  width="605" height="728"></Image>
+                      <Image src={ProjectSecondImage} alt={ProjectHeading}  width="615" height="700"></Image>
                     </SwiperSlide>
                     <SwiperSlide>
-                      <Image src={ProjectThirdImage} alt={ProjectHeading}  width="605" height="728"></Image>
+                      <Image src={ProjectThirdImage} alt={ProjectHeading}  width="615" height="700"></Image>
                     </SwiperSlide>
                     
                 </Swiper>
@@ -71,7 +71,7 @@ function Project ({ProjectFirstImage, ProjectSecondImage, ProjectThirdImage, Pro
         />
     </div>
     <div className='case_study__image-wrap'>
-        <Image src={ProjectFourthImage} alt={ProjectHeading} width="605" height="728"/>
+        <Image src={ProjectFourthImage} alt={ProjectHeading} width="615" height="700"/>
     </div>  
     <div className='case_study__text-wrap'>
         <h2 className='case_study__heading'>{ProjectHeading}</h2>
@@ -106,9 +106,15 @@ function MoreProjects () {
     <Swiper
         className="more-projects"
         spaceBetween={30}
-        slidesPerView={4}
+        slidesPerView={1}
         loop={true}
-        
+        breakpoints={{
+
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 4,
+          }
+        }}
         autoplay={{
           delay: 1000,
           disableOnInteraction: false,

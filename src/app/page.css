@@ -98,6 +98,7 @@ a {
 }
 img {
   width: 100%;
+  height: auto;
 }
 .page-transition {
   animation: slideIn 0.5s ease-in-out both;
@@ -786,7 +787,7 @@ h1 {
 .case_study__image-wrap {
   border-radius: 50px;
   overflow: hidden;
-  max-width: 605px;
+  max-width: 100%;
 }
 .details-button {
     align-items: center;
@@ -823,7 +824,7 @@ h1 {
   font-size: 1rem;
   font-weight: 700;
 }
-.details-buttonn-icon-wrap {
+.details-button-icon-wrap {
   width: 1.3rem;
 }
 .slider-mask {
@@ -884,6 +885,11 @@ h1 {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+.icon-check {
+  max-width: 1.7rem;
+  padding-right: .5rem;
+}
 .project_preview__container{    
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 1fr;
@@ -932,7 +938,7 @@ h1 {
   height: 100vh;
 }
 .project-heading {
-  font-size: 4vw;
+  font-size: 4rem;
   line-height: 1em;
 }
 
@@ -942,6 +948,7 @@ h1 {
   column-gap: 2rem;
   align-items: flex-start;
   margin-bottom: 3rem;
+  max-width: 50%;
 }
 @media screen and (max-width: 1501px){ 
   .hp-hero__skills-wrap {
@@ -952,7 +959,12 @@ h1 {
 }
 
 @media screen and (max-width: 991px){
-
+  .proj-heading-container {
+    max-width: 100%;
+  }
+  .project-heading {
+    font-size: 2rem;
+  }
   .section.hp-hero {
     padding-top: 18vh;
     padding-bottom: 0;
@@ -998,9 +1010,10 @@ h1 {
     display: block;
     max-width: 100%;
   }
-  .case-study__item-grid {
+  .case-study__item-grid, .solutions-section-grid, .reasons-section-grid, .sobre-mi__content-grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    grid-row-gap: 3rem;
   }
   .skills-section-container-inner {
     display: flex;

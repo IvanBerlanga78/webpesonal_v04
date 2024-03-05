@@ -41,12 +41,12 @@ function PlansPanel (props){
             <div className="single-plan-price">{props.price}</div>
             <div className="single-plan-features">
                 <ul>
-                    <li><Image src="/assets/imgs/icono-check_icon-check-white.svg" width={20} height={20} alt="icon check"/>{props.feature1}</li>
-                    <li><Image src="/assets/imgs/icono-check_icon-check-white.svg" width={20} height={20} alt="icon check"/>{props.feature2}</li>
-                    <li><Image src="/assets/imgs/icono-check_icon-check-white.svg" width={20} height={20} alt="icon check"/>{props.feature3}</li>
-                    <li><Image src="/assets/imgs/icono-check_icon-check-white.svg" width={20} height={20} alt="icon check"/>{props.feature4}</li>
-                    <li><Image src="/assets/imgs/icono-check_icon-check-white.svg" width={20} height={20} alt="icon check"/>{props.feature5}</li>
-                    <li><Image src="/assets/imgs/icono-check_icon-check-white.svg" width={20} height={20} alt="icon check"/>{props.feature6}</li>
+                    <li><Image className="icon-check" src="/assets/imgs/icono-check_icon-check-white.svg" width={20} height={20} alt="icon check"/>{props.feature1}</li>
+                    <li><Image className="icon-check" src="/assets/imgs/icono-check_icon-check-white.svg" width={20} height={20} alt="icon check"/>{props.feature2}</li>
+                    <li><Image className="icon-check" src="/assets/imgs/icono-check_icon-check-white.svg" width={20} height={20} alt="icon check"/>{props.feature3}</li>
+                    <li><Image className="icon-check" src="/assets/imgs/icono-check_icon-check-white.svg" width={20} height={20} alt="icon check"/>{props.feature4}</li>
+                    <li><Image className="icon-check" src="/assets/imgs/icono-check_icon-check-white.svg" width={20} height={20} alt="icon check"/>{props.feature5}</li>
+                    <li><Image className="icon-check" src="/assets/imgs/icono-check_icon-check-white.svg" width={20} height={20} alt="icon check"/>{props.feature6}</li>
                 </ul>
             </div>
         </div>
