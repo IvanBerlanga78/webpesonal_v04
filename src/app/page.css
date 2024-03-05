@@ -324,12 +324,14 @@ aside#menu-secundario {
   padding-bottom: 0;
   position: relative;
 }
-
+.reason-image-wrap {
+  height: 270px;
+}
 .main-projects-container {
   display: flex;
 }
 .projects-section__heading, .section__heading {
-  font-size: 2.5vw;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1em;
   margin: 0 auto 0.5em;
@@ -950,6 +952,9 @@ h1 {
   margin-bottom: 3rem;
   max-width: 50%;
 }
+.swiper-pagination {
+  bottom: 25px;
+}
 @media screen and (max-width: 1501px){ 
   .hp-hero__skills-wrap {
     grid-template-columns: 1fr;
@@ -985,7 +990,7 @@ h1 {
   h2.hp-hero__ib, h2.middle-section__heading {
     font-size: 7vw;
   }
-  .hp-hero__heading-grid {
+  .hp-hero__heading-grid, .grid-plans {
     grid-template-columns: 1fr;
   }
   .hp-hero__content-grid {
@@ -1082,6 +1087,12 @@ h1 {
   }
   .contact .glow-on-hover,  .contact .glow-on-hover:active,  .contact .glow-on-hover:visited,  .contact .glow-on-hover:before, .contact .glow-on-hover:after {
     border-radius: 15px;
+  }
+  .reason-wrap {
+   max-width: 100%; 
+  }
+  .reason-image-wrap {
+    height: auto; 
   }
   .hide-on-mobile {
     display: none;

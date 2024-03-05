@@ -134,7 +134,13 @@ export default function Home() {
           <div className="container">
             <Swiper
             spaceBetween = {30}
-            slidesPerView={3}
+            slidesPerView={1}
+            breakpoints={{
+              // when window width is >= 768px
+              991: {
+                slidesPerView: 4,
+              }
+            }}
             modules={[EffectFade, Autoplay, Pagination]}
             >
                <SwiperSlide>

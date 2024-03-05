@@ -105,20 +105,17 @@ function MoreProjects () {
   return ( 
     <Swiper
         className="more-projects"
+        speed = {500}
         spaceBetween={30}
         slidesPerView={1}
         loop={true}
         breakpoints={{
-
           // when window width is >= 768px
-          768: {
+          991: {
             slidesPerView: 4,
           }
         }}
-        autoplay={{
-          delay: 1000,
-          disableOnInteraction: false,
-        }}
+        autoplay={true}
         modules={[Autoplay, Navigation]} 
       >
       {initialPosts.map((item) => { 
