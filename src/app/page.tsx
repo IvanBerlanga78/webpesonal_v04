@@ -171,7 +171,7 @@ export default function Home() {
             </Swiper>
           </div>
         </section>
-        <section className="section">
+        <section className="section" id="solutions">
            <div className="container-plans">
             <h2 className="section__heading">Planes <span className="highlight-big">flexibles y adaptables</span><br/> a tus necesidades</h2>
             <div className="grid-plans">

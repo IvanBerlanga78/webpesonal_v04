@@ -50,11 +50,11 @@ export default function Navbar (){
                     <Image src="/assets/imgs/logo.svg" alt="logo" width="62" height="32"/>
                 </Link>
                 <div>
-                <a className='cta-contact-button glow-on-hover' href='#'>
+                <Link className='cta-contact-button glow-on-hover' href='/contacto'>
                     <Image className='thumbnail' src="/assets/imgs/ivan-profile-thumb.png" alt="ivan thumbnail" width="40" height="40"/>
                     <span>Conctacta!</span>
                     <Image className='arrow-right' alt="arrow" src="/assets/imgs/arrow-right.svg" width="8" height="12"/>
-                </a> 
+                </Link> 
                 </div>
             </div> 
         </nav>

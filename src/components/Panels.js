@@ -10,7 +10,7 @@ return (
     <Image src={props.imageSrc} width="328" height="244" alt={props.imageAlt}/>
     <h3 className="solution-heading">{props.heading}</h3>
     <p>{props.text}</p>
-    <Link className="details-button wide" href="#">
+    <Link className="details-button wide" href="#solutions">
     <div className="details-button-wrap">
         <div className="details-button-icon-wrap">
         <Image className="icon" src="/assets/imgs/icon-plus_icon-plus.svg" width="21" height="21" alt="icon plus"/>
