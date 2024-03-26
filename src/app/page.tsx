@@ -119,12 +119,10 @@ export default function Home() {
           <Image src="/assets/imgs/sobre-mi.svg" width={640} height={400} alt="sobre mi"/>
           </div>
         </section>
-        <section className="section">
+        <section className="section reviews">
           <div className="middle-container">
           <h2 className="middle-section__heading"><span className="highlight-big">Diseñador web</span> freelance <span className="red">enfocado en  tus objetivos</span></h2>
           </div>
-        </section>
-        <section className="section reviews">
           <div className="container">
             <Swiper
             spaceBetween = {30}

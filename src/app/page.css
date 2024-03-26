@@ -967,6 +967,10 @@ h1 {
 }
 
 @media screen and (max-width: 991px){
+  img{
+    max-width: 12rem;
+    margin: 0 auto;
+  }
   .proj-heading-container {
     max-width: 100%;
   }
@@ -988,9 +992,12 @@ h1 {
     display: none;
   }
   h1 {
-    font-size: 19vw;
+    font-size: 16vw;
   }
-  h2.hp-hero__ib, h2.middle-section__heading {
+  h2.hp-hero__ib {
+    font-size: 4vw;
+  }
+  h2.middle-section__heading {
     font-size: 9vw;
   }
   .hp-hero__heading-grid, .grid-plans {
