@@ -30,16 +30,24 @@ function Project ({ProjectFirstImage, ProjectSecondImage, ProjectThirdImage, Pro
         <div className='slider-container'>
             <div className='slider-mask'>
                 <Swiper
-                    effect={"fade"}
+                    slidesPerView={1}
+                    breakpoints={{
+                      // when window width is >= 768px
+                      768: {
+                        slidesPerView: 2,
+                      },
+                    }}
+                    spaceBetween={30}
+                    //effect={"fade"}
                   
                     autoplay=
                       {true}
                   
                     pagination={pagination}
-                    
+                    /*
                     fadeEffect={{
                       crossFade: true // enables slides to cross fade
-                    }}
+                    }} */
                     modules={[EffectFade, Autoplay, Pagination]}
                     >
                     <SwiperSlide>
@@ -50,6 +58,9 @@ function Project ({ProjectFirstImage, ProjectSecondImage, ProjectThirdImage, Pro
                     </SwiperSlide>
                     <SwiperSlide>
                       <Image src={ProjectThirdImage} alt={ProjectHeading}  width="615" height="700"></Image>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <Image src={ProjectFourthImage} alt={ProjectHeading}  width="615" height="700"></Image>
                     </SwiperSlide>
                     
                 </Swiper>
@@ -69,12 +80,6 @@ function Project ({ProjectFirstImage, ProjectSecondImage, ProjectThirdImage, Pro
         ButtonLink={ProjectExternalLink}
         ButtonText = {"Visitar la web"}
         />
-    </div>
-    <div className='case_study__image-wrap'>
-        <Image src={ProjectFourthImage} alt={ProjectHeading} width="615" height="700"/>
-    </div>  
-    <div className='case_study__text-wrap'>
-        <h2 className='case_study__heading'>{ProjectHeading}</h2>
     </div>
 
         </>

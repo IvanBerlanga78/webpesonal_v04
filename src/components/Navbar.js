@@ -52,7 +52,7 @@ export default function Navbar (){
                 <div>
                 <Link className='cta-contact-button glow-on-hover' href='/contacto'>
                     <Image className='thumbnail' src="/assets/imgs/ivan-profile-thumb.png" alt="ivan thumbnail" width="40" height="40"/>
-                    <span>Conctacta!</span>
+                    <span>Contacta!</span>
                     <Image className='arrow-right' alt="arrow" src="/assets/imgs/arrow-right.svg" width="8" height="12"/>
                 </Link> 
                 </div>

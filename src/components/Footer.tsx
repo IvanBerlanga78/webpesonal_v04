@@ -11,7 +11,7 @@ export default function Footer ()
         <aside id="menu-secundario">
             <div className="container nav w-container">
                     <ul className="secundario-nav__list">
-                        <li>
+                        <li><Link href="/">
                             <Player 
                                 autoplay={true}
                                 loop={true}
@@ -19,9 +19,11 @@ export default function Footer ()
                                 src="/assets/animated-eye.json"
                                 style={{ height: '40px', width: '100%' }}
                             />
-                            <Link href="/">Inicio</Link>
+                            Inicio
+                            </Link>
                         </li>
                         <li>
+                            <Link href="/proyectos">
                             <Player 
                                 autoplay={true}
                                 loop={true}
@@ -29,9 +31,9 @@ export default function Footer ()
                                 src="/assets/animated-circles.json"
                                 style={{ height: '40px', width: '100%' }}
                             />
-                            <Link href="/proyectos">Proyectos</Link>
+                            Proyectos</Link>
                         </li>
-                        <li>
+                        <li><Link href="/sobre-mi">
                             <Player 
                                 autoplay={true}
                                 loop={true}
@@ -39,9 +41,9 @@ export default function Footer ()
                                 src="/assets/animated-circles-2.json"
                                 style={{ height: '40px', width: '100%' }}
                             />
-                            <Link href="/sobre-mi">Sobre mi</Link>
+                            Sobre mi</Link>
                         </li>
-                        <li>
+                        <li><Link href="/contacto">
                             <Player 
                                 autoplay={true}
                                 loop={true}
@@ -49,7 +51,7 @@ export default function Footer ()
                                 src="/assets/animated-plane.json"
                                 style={{ height: '40px', width: '100%' }}
                             />
-                            <Link href="/contacto">Contacto</Link>
+                            Contacto</Link>
                         </li>
                     </ul>
             </div> 

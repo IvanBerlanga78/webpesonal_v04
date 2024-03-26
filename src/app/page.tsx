@@ -37,7 +37,7 @@ export default function Home() {
         </section>
         <section className="section">
           <div className="solutions-container">
-              <h2 className="middle-section__heading">Te ofrezco soluciones digitales <span className="highlight-big">flexibles y adaptables</span>
+              <h2 className="middle-section__heading">Soluciones digitales<br/><span className="red">flexibles y adaptables</span>
               </h2>
               <div className="solutions-section-grid">
                 <SolutionPanel
@@ -87,7 +87,12 @@ export default function Home() {
         <section className="section">
             <div className="bcg-dots"></div>
             <div className="container">
+            <h2 className="middle-section__heading">Páginas web <br/><span className="red">100% profesionales</span></h2>
+            <div className="proj-heading-container">
+                  <h2 className="project-heading"><b>Elia</b>"Improving people's live through space"</h2>
+                </div>
               <div className="case-study__item-grid">
+                
                   <Project
                     ProjectFirstImage= {"/assets/imgs/imgs-projects/elia-1.jpg"}
                     ProjectSecondImage= {"/assets/imgs/imgs-projects/elia-2.jpg" }
@@ -99,18 +104,7 @@ export default function Home() {
                     ProjectText={"Eli-a es un estudio de arquitectura con gran proyección internacional. Sus proyectos se encuentran repartidos por los cinco continentes y el prestigio de sus obras es reconocido.El objetivo de la web era mostrar un portfolio de los proyectos de la firma de una forma muy intuitiva. Con el uso de fichas de proyecto, conseguí que cada trabajo tuviera una personalidad y entidad propias."}
                     ProjectExternalLink={"https://eli-a.com"}
                   />
-                  <Project
-                    ProjectFirstImage= {"/assets/imgs/imgs-projects/natalia-1.jpg"}
-                    ProjectSecondImage= {"/assets/imgs/imgs-projects/natalia-2.jpg" }
-                    ProjectThirdImage= {"/assets/imgs/imgs-projects/natalia-3.jpg" }
-                    ProjectFourthImage= {"/assets/imgs/imgs-projects/natalia-4.jpg" }
-                    ProjectLabelText1={'Diseño Web'}
-                    ProjectLabelText2={'Wordpress'}
-                    ProjectHeading={"\"¿Crees que tu equipo ha logrado su máximo potencial?\""}
-                    ProjectText={"Natalia Sanchidrian es una experta ponente y escritora sobre Inteligencia Emocional. El reto de esta web personal era transmitir todo potencial y personalidad magnética que tiene Natalia. La web, muy visual y elegante, logra su objetivo."}
-                    ProjectExternalLink={"https://eli-a.com"}
-                  />
-              </div>
+                 </div>
             </div>  
         </section>
         <section className="section">
@@ -120,14 +114,14 @@ export default function Home() {
         </section>
         <section className="section">
           <div className="middle-container">
-            <h2 className="middle-section__heading">Desde lo más <span className="highlight-big">sencillo</span><br/> a lo más <span className="highlight-big">complejo</span></h2>
+            <h2 className="middle-section__heading">Desde lo más sencillo <span className="red">a lo más complejo</span></h2>
           <div className="middle-section__text-wrap"><p>Tanto si necesitas una web sencilla como si quieres incluir animaciones u otros efectos o funcionalidades más complejas, soy la persona indicada para alcanzar tus objetivos. Mis conocimientos y experiencia me permiten adaptarme a proyectos sencillos o más complicados.</p></div>
           <Image src="/assets/imgs/sobre-mi.svg" width={640} height={400} alt="sobre mi"/>
           </div>
         </section>
         <section className="section">
           <div className="middle-container">
-          <h2 className="middle-section__heading"><span className="highlight-big">Diseñador web</span> freelance <br className="hide-on-mobile"/>enfocado en <span className="highlight-big">tus objetivos</span></h2>
+          <h2 className="middle-section__heading"><span className="highlight-big">Diseñador web</span> freelance <span className="red">enfocado en  tus objetivos</span></h2>
           </div>
         </section>
         <section className="section reviews">
@@ -173,7 +167,7 @@ export default function Home() {
         </section>
         <section className="section" id="solutions">
            <div className="container-plans">
-            <h2 className="section__heading">Planes <span className="highlight-big">flexibles y adaptables</span><br/> a tus necesidades</h2>
+            <h2 className="middle-section__heading">Planes <span className="red">flexibles y adaptables</span><br/> a tus necesidades</h2>
             <div className="grid-plans">
                 <PlansPanel
                   heading={"Basic"}
